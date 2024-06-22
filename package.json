@@ -1,5 +1,6 @@
 {
   "name": "sample-react-app",
+  "homepage": "http://azufb.github.io/sample-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
